@@ -11,8 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="replace-dds" Type="Folder" URL="..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Swap DDS and CS" Type="Folder">
+			<Item Name="HowToUse.vi" Type="VI" URL="../HowToUse.vi"/>
+			<Item Name="Swap CS with DDS.vi" Type="VI" URL="../Swap CS with DDS.vi"/>
+			<Item Name="Swap DDS and CS.aliases" Type="Document" URL="../Swap DDS and CS.aliases"/>
+			<Item Name="Swap DDS and CS.lvlps" Type="Document" URL="../Swap DDS and CS.lvlps"/>
+			<Item Name="Swap DDS and CS.vi" Type="VI" URL="../Swap DDS and CS.vi"/>
+			<Item Name="Swap DDS with CS.vi" Type="VI" URL="../Swap DDS with CS.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
